@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -28,4 +30,40 @@ body {
     display: flex;
     gap: 18px;
 
+}
+
+.first {
+    background-color: #1f2937;
+    display: flex;
+    padding: 64px 128px;
+    gap: 24px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.hero-button {
+    font-size: 14px;
+    color: white;
+    background-color: #3882f6;
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.first-placeholder {
+    background-color: #e5e7eb;
+    width: 480px;
+    height: 280px;
+    flex-shrink: 0;
 }
